@@ -1,0 +1,38 @@
+
+* {
+	font-family: Avenir;
+}
+
+section {
+	background-color: #d2d2d2;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+header {
+	grid-column: 1/3;
+}
+
+main {
+	grid-column: 1/3;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2em;
+}
+
+.skyline {
+	width: 100%;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#validatie {
+	height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+    padding-left: 10px;
+}
